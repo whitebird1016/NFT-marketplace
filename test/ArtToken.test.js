@@ -54,7 +54,7 @@ contract('ArtToken', (accounts) => {
       assert.equal(event.to, accounts[0], 'to is correct')
     })
   })
-
+   
   describe('indexing', async () => {
     it('lists colors', async () => {
       //mint 3 more tokens
